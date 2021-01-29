@@ -1,0 +1,6 @@
+Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,ComponentLink1URL
+
+"N1","Ticker","","1000","","","https://github.com/nBlocksStudioNodes/nblocks_ticker"
+"N2","USonicEcho","pinEcho","p18","coefficient","58","https://github.com/nBlocksStudioNodes/nblocks_usonicecho"
+"N3","StringFormat","formatString","""Distance = %d cm\n ""","","","https://github.com/nBlocksStudioNodes/nblocks_stringformat"
+"N4","StringSerial","pinTX","USBTX","pinRX","USBRX","https://github.com/nBlocksStudioNodes/nblocks_stringserial"
