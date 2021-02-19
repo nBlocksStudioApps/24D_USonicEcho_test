@@ -5,10 +5,16 @@ Ticker                          N1
 USonicEcho                      N2             
 StringFormat                    N3             
 StringSerial                    N4             
+StringFormat                    N5             
+OLEDisplay                      N6             
 
 <<< Wire List >>>
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00004] NetN5_2
+        N5         2       OUT            OUTPUT      StringFormat
+        N6         1       value          INPUT       OLEDisplay
 
 [00003] NetN3_2
         N3         2       OUT            OUTPUT      StringFormat
@@ -17,6 +23,7 @@ StringSerial                    N4
 [00002] NetN2_2
         N2         2       Time_us        OUTPUT      USonicEcho
         N3         1       IN             INPUT       StringFormat
+        N5         1       IN             INPUT       StringFormat
 
 [00001] NetN1_1
         N1         1       OUT            OUTPUT      Ticker
